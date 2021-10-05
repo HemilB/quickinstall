@@ -45,8 +45,8 @@ mkdir ~/.themes
 mkdir ~/.icons
 
 #Adding a few aliases to .bashrc
-echo alias ls='ls -lah' >> ~/.bashrc
-echo alias unzipme='tar -xvzf' >> ~/.bashrc
+echo -e "\nalias ls ='ls -lah'" >> ~/.bashrc
+echo -e "\nalias unzipme='tar -xvzf'" >> ~/.bashrc
 
 # Final message
 echo All apps have been installed, script will now quit.
