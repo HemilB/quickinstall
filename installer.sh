@@ -24,7 +24,7 @@ apt-get update
 ufw enable
 
 # Install apt packages
-apt-install htop -y
+apt install htop -y
 apt install notepadqq -y
 apt install python3 -y
 apt install synaptic -y
