@@ -1,4 +1,4 @@
- #!/bin/sh
+ #!/bin/bash
 
 #Custom install script for ubuntu based distros
 #Useful template
@@ -9,7 +9,10 @@
 #dash to dock if wanted
 
 #prompt for sudo password
-[ "$(whoami)" != "root" ] && exec sudo -- "$0" "$@"
+if [ $EUID -ne 0 ]; then
+    echo "$0 is not running as root. Try using sudo."
+    exit 2
+fi
 
 #resizes screen
 xrandr --output "Virtual1" --mode 1680x1050
