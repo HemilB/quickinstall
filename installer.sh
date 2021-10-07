@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 
 #Custom install script for ubuntu based distros
 #Useful template
