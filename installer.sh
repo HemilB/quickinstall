@@ -8,7 +8,7 @@
 #ShellTile by emasab (to ensure corner snapping in window manager)
 #dash to dock if wanted
 
-#prompt for sudo password
+#Need to run this as root
 if [ $EUID -ne 0 ]; then
     echo "$0 is not running as root. Try using sudo."
     exit 2
