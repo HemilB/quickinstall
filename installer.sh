@@ -28,10 +28,8 @@ ufw enable
 
 # Install apt packages
 apt install htop -y
-apt install notepadqq -y
 apt install python3 -y
 apt install synaptic -y
-apt install git -y
 apt install gnome-tweak-tool -y
 apt install chrome-gnome-shell -y
 apt install tree -y
