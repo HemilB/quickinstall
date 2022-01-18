@@ -19,6 +19,8 @@ xrandr --output "Virtual1" --mode 1680x1050
 
 # Add any additional repositories
 add-apt-repository universe
+add-apt-repository restricted
+add-apt-repository multiverse
 
 #update repos
 apt-get update
